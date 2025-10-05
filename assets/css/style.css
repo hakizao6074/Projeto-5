@@ -56,8 +56,8 @@ button {
     height: 32px;
     width: 80px;
     border-radius: 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-family: "Poppins";
+    font-weight: 600;
 }
 
 .button-1 {
@@ -68,9 +68,27 @@ button {
 .button-2 {
   background-color:  #544cf2;
   border: solid 1px #3c35cc;
+  color: #e0e0e0;
 }
 
 .tex-destaque {
     font-size: 50px;
     padding: 0px 45px;
+}
+
+.dps {
+    display: flex;
+}
+
+.primary-img {
+    border-radius:  40px 0px 0px;
+}
+
+.primary-img-2 {
+    border-radius:  0px 50px 0px 00px; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+.imgs-1 {
+    display: flex;
+    gap: 10px;
 }
