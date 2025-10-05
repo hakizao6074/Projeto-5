@@ -73,22 +73,125 @@ button {
 
 .tex-destaque {
     font-size: 50px;
-    padding: 0px 45px;
 }
 
 .dps {
     display: flex;
+    gap: 5px;
 }
 
-.primary-img {
-    border-radius:  40px 0px 0px;
+.primary-img-1 {
+    border-radius:  30px 0px 0px;
+    padding:7px;
 }
 
 .primary-img-2 {
-    border-radius:  0px 50px 0px 00px; /* top-left, top-right, bottom-right, bottom-left */
+    border-radius:  0px 30px 0px 00px; /* top-left, top-right, bottom-right, bottom-left */
+    padding: 7px;
+}
+.primary-img-3 {
+    border-radius:  0px 0px 0px 30px; /* top-left, top-right, bottom-right, bottom-left */
+    padding: 7px;
 }
 
 .imgs-1 {
     display: flex;
+    gap: 7px;
+    flex-direction: column;
+    
+}
+
+.imgs-2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.sub-conteiner-1 {
+    background-color: #d2d7e0;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 0px 0px 30px 0px;
+    gap: 10px;
+    padding: 3px;
+}
+
+.essentias {
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-1 {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-3 {
+  background-color: #3c35cc;
+  color: #e0e0e0;
+  border: solid 1px;
+  width: 150px;
+  font-weight: 400;
+  height: 40px;
+}
+
+.button-4 {
+  background-color:  #ffffff;
+  border: solid 1px #00000023;
+  color: #000000;
+  width: 150px;
+  font-weight: 400;
+  height: 40px;
+}
+
+
+
+.dps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.espacamento {
+    width: 10%;
+}
+
+.colunado-1 {
+    display: flex;
     gap: 10px;
 }
+
+/* Adicione ao seu arquivo style.css */
+.contet-1 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colunado-1, .colunado-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.colunado-1 img, .colunado-2 img {
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+
+
