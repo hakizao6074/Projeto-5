@@ -193,5 +193,31 @@ button {
     margin-top: 4px;
 }
 
+.mine-footer-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 10px;
+    gap: 10px;
+}
 
+
+.mine-footer-2 {
+    padding: 20px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    background-color: #3d35ccb2;
+    
+}
+
+.mine-footer-3 {
+    padding: 20px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    background-color: #cc3535b2;   
+}
 
