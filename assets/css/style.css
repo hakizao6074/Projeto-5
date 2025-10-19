@@ -193,31 +193,91 @@ button {
     margin-top: 4px;
 }
 
-.mine-footer-1 {
+.end-footer {
     display: flex;
     align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.315);
-    padding: 10px;
+    justify-content: flex-start;
+    font-weight: 200;
+}
+
+.seila {
+    padding: 50px;
     gap: 10px;
 }
 
+.page-2 {
+    background-color: #ffffff;
+}
 
-.mine-footer-2 {
-    padding: 20px;
-    font-weight: 100;
+.nav-bar-3 {
     display: flex;
     align-items: center;
-    background-color: #3d35ccb2;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+
+.img-footer-2 {
+    display: flex;
+    align-items: center;
+  
+}
+
+.size-image-nav-3 {
+    object-fit: contain;
+    width: 140px;
+    height: 50px;
+}
+
+.classfi-1 {
+    background-color: #544cf2;
+    color: #d2d7e0;
+    padding: 0px;
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.blocks-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    .text-size {
+            font-size: 60px;
+            font-weight: 700;
+            color: #d2d7e0;
+    }
+}
+
+.sub-page-1 {
+    padding: 40px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-page-2 {
+   gap: 10px;
+   padding: 20px;
+}
+
+.celular {
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
 
-.mine-footer-3 {
-    padding: 20px;
-    font-weight: 100;
-    display: flex;
-    align-items: center;
-    background-color: #cc3535b2;   
-}
 
+.img-celular {
+    object-fit: contain;
+    width: 400px;
+}
