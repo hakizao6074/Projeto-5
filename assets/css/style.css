@@ -286,6 +286,7 @@ button {
     justify-content: center;
     display: flex;
     height: 150px;
+    
 }
 .Grafics {
     align-items: center;
@@ -322,7 +323,8 @@ button {
     .block-2 {
         background-color: #f5f2f2;
         border-radius: 20px;
-        width: 350px;
+        width: 240px;
+        height: 400px;
     }
 
     .fake-buttom-1 {
@@ -376,5 +378,40 @@ button {
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: row;
+            
+        }
+
+        .second-page {
+            background-color: #888;
+        }
+        .alinhamento-second-page-1 {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            gap: 25px;
+        }
+        .price-1 {
+            display: flex;
+            align-items: center;
             flex-direction: column;
+            justify-content: center;
+            border: solid black;
+            width: 250px;
+            height: 450px;
+            border-radius: 34px;
+            background-color: #ffffff;
+        }
+        .price-2 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            width: 250px;
+            height: 450px;
+            border-radius: 34px;
+            background: linear-gradient(180deg, #36349A 0%,#2C2B71 35%, #25273E 70%, #3F4155 100%);
+            color: #ffffff;
+            border: none;
+            box-shadow: 0 8px 20px rgba(84,76,242,0.18);
         }
